@@ -1,0 +1,50 @@
+﻿  PMC.cpp
+C:\Users\User\Documents\ESGI 5eme année\Machine Learning\DllMachineLearning\DllMachineLearning\PMC.h(18,46): warning C4251: 'PMC::W' : class 'std::vector<std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>>,std::allocator<std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>>>>' nécessite une interface DLL pour être utilisé(e) par les clients de class 'PMC'
+C:\Users\User\Documents\ESGI 5eme année\Machine Learning\DllMachineLearning\DllMachineLearning\PMC.h(18): message : voir la déclaration de 'std::vector<std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>>,std::allocator<std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>>>>'
+C:\Users\User\Documents\ESGI 5eme année\Machine Learning\DllMachineLearning\DllMachineLearning\PMC.h(20,17): warning C4251: 'PMC::d' : class 'std::vector<int,std::allocator<int>>' nécessite une interface DLL pour être utilisé(e) par les clients de class 'PMC'
+C:\Users\User\Documents\ESGI 5eme année\Machine Learning\DllMachineLearning\DllMachineLearning\PMC.h(10): message : voir la déclaration de 'std::vector<int,std::allocator<int>>'
+C:\Users\User\Documents\ESGI 5eme année\Machine Learning\DllMachineLearning\DllMachineLearning\PMC.h(23,33): warning C4251: 'PMC::X' : class 'std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>>' nécessite une interface DLL pour être utilisé(e) par les clients de class 'PMC'
+C:\Users\User\Documents\ESGI 5eme année\Machine Learning\DllMachineLearning\DllMachineLearning\PMC.h(18): message : voir la déclaration de 'std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>>'
+C:\Users\User\Documents\ESGI 5eme année\Machine Learning\DllMachineLearning\DllMachineLearning\PMC.h(24,33): warning C4251: 'PMC::deltas' : class 'std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>>' nécessite une interface DLL pour être utilisé(e) par les clients de class 'PMC'
+C:\Users\User\Documents\ESGI 5eme année\Machine Learning\DllMachineLearning\DllMachineLearning\PMC.h(18): message : voir la déclaration de 'std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>>'
+C:\Users\User\Documents\ESGI 5eme année\Machine Learning\DllMachineLearning\DllMachineLearning\PMC.cpp(12,23): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\User\Documents\ESGI 5eme année\Machine Learning\DllMachineLearning\DllMachineLearning\PMC.cpp(50,37): warning C4244: '+=' : conversion de '_Ty' en 'float', perte possible de données
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\User\Documents\ESGI 5eme année\Machine Learning\DllMachineLearning\DllMachineLearning\PMC.cpp(86,41): warning C4244: '+=' : conversion de '_Ty' en 'float', perte possible de données
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\User\Documents\ESGI 5eme année\Machine Learning\DllMachineLearning\DllMachineLearning\PMC.cpp(189,39): error C2374: 'xor_points' : redéfinition ; initialisation multiple
+C:\Users\User\Documents\ESGI 5eme année\Machine Learning\DllMachineLearning\DllMachineLearning\PMC.cpp(168): message : voir la déclaration de 'xor_points'
+C:\Users\User\Documents\ESGI 5eme année\Machine Learning\DllMachineLearning\DllMachineLearning\PMC.cpp(190,37): error C2374: 'xor_classes' : redéfinition ; initialisation multiple
+C:\Users\User\Documents\ESGI 5eme année\Machine Learning\DllMachineLearning\DllMachineLearning\PMC.cpp(169): message : voir la déclaration de 'xor_classes'
+C:\Users\User\Documents\ESGI 5eme année\Machine Learning\DllMachineLearning\DllMachineLearning\PMC.cpp(191,9): error C2374: 'model' : redéfinition ; initialisation multiple
+C:\Users\User\Documents\ESGI 5eme année\Machine Learning\DllMachineLearning\DllMachineLearning\PMC.cpp(173): message : voir la déclaration de 'model'
+C:\Users\User\Documents\ESGI 5eme année\Machine Learning\DllMachineLearning\DllMachineLearning\PMC.cpp(197,39): error C2086: 'std::vector<std::array<float,2>,std::allocator<std::array<float,2>>> test_points' : redéfinition
+C:\Users\User\Documents\ESGI 5eme année\Machine Learning\DllMachineLearning\DllMachineLearning\PMC.cpp(179): message : voir la déclaration de 'test_points'
+C:\Users\User\Documents\ESGI 5eme année\Machine Learning\DllMachineLearning\DllMachineLearning\PMC.cpp(198,30): error C2086: 'std::vector<std::string,std::allocator<std::string>> test_colors' : redéfinition
+C:\Users\User\Documents\ESGI 5eme année\Machine Learning\DllMachineLearning\DllMachineLearning\PMC.cpp(180): message : voir la déclaration de 'test_colors'
+C:\Users\User\Documents\ESGI 5eme année\Machine Learning\DllMachineLearning\DllMachineLearning\PMC.cpp(202,50): warning C4838: la conversion de 'int' en '_Ty' requiert une conversion restrictive
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\User\Documents\ESGI 5eme année\Machine Learning\DllMachineLearning\DllMachineLearning\PMC.cpp(202,50): warning C4244: 'initialisation' : conversion de 'int' en '_Ty', perte possible de données
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\User\Documents\ESGI 5eme année\Machine Learning\DllMachineLearning\DllMachineLearning\PMC.cpp(202,65): warning C4838: la conversion de 'int' en '_Ty' requiert une conversion restrictive
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\User\Documents\ESGI 5eme année\Machine Learning\DllMachineLearning\DllMachineLearning\PMC.cpp(202,65): warning C4244: 'initialisation' : conversion de 'int' en '_Ty', perte possible de données
+          with
+          [
+              _Ty=float
+          ]
